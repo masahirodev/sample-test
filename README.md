@@ -168,3 +168,9 @@ npx chromatic --project-token={token}
 ```
 
 スタイルに変化を起こし、コミットしてください。
+
+```
+npx chromatic --project-token={token}
+```
+
+![リグレッションテストの結果](image.png)
