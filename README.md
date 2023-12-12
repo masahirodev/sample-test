@@ -156,3 +156,15 @@ npx chromatic --project-token={token}
   "chromatic": "npx chromatic --project-token={token}"
 }
 ```
+
+### 使い方
+
+```diff
+      <button onClick={increment}
++      style={{ width: "500px" }}
+      >
+        count is {count}
+      </button>
+```
+
+スタイルに変化を起こし、コミットしてください。

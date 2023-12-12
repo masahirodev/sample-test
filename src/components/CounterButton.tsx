@@ -5,7 +5,9 @@ export const CounterButton = ({ init = 0 }: { init?: number }) => {
 
   return (
     <>
-      <button onClick={increment}>count is {count}</button>
+      <button onClick={increment} style={{ width: "500px" }}>
+        count is {count}
+      </button>
     </>
   );
 };
