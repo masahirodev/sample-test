@@ -136,3 +136,23 @@ npm run storybook
 ## Chromatic（ビジュアルリグレッションテスト）
 
 git 管理が必要
+
+[Chromatic 公式サイト](https://www.chromatic.com/)
+
+アカウント作って、プロジェクト作る orGithub から連携する
+
+```
+npm install --save-dev chromatic
+```
+
+```
+npx chromatic --project-token={token}
+```
+
+注意点として、packjson に下記のコマンド記載しますかって出るので、n を押す方が良いかと
+
+```
+"scripts": {
+  "chromatic": "npx chromatic --project-token={token}"
+}
+```
